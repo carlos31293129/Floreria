@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cheque');
 
 :root{
-    --main-color:#d3ad7f;
+    --main-color:#CFAA01;
     --black:#13131a;
     --bg:#010103;
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'cheque';
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -85,7 +86,7 @@ section{
 }
 
 .header .logo img{
-    height: 7rem;
+    height: 5rem;
 }
 
 .header .navbar a{
@@ -208,13 +209,14 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(https://www.xtrafondos.com/descargar.php?id=4086&resolucion=2560x1440) no-repeat;
+    background: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/326511094_3440143456262127_8151856791025480560_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=3rb8ByiUem0AX9_HKqv&tn=-oMZ3n6z_SkmG2eA&_nc_ht=scontent.xx&oh=03_AdQ-nJnLRbePNGRh1giI9Upcy_eNCWYqqXwYp6JL3mIITw&oe=63F1029D) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .home .content{
-    max-width: 60rem;
+    max-width: 90rem;
+    
 }
 
 .home .content h3{
@@ -244,7 +246,7 @@ section{
 
 .about .row .image img{
     width: 80%;
-    height: 650px;
+    height: 600px;
 }
 .about .row .content{
     flex:1 1 45rem;
@@ -264,6 +266,7 @@ section{
 }
 
 .menu .box-container{
+  
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
