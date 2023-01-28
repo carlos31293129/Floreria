@@ -242,7 +242,7 @@ section{
     background:var(--black);
     flex-wrap: wrap;
     border-radius: 10px ;
-   border: solid 3px #CFAA01;
+   
 }
 
 .about .row .image{
@@ -251,7 +251,7 @@ section{
 
 .about .row .image img{
     width: auto;
-    height: 600px;
+    height: 680px;
 }
 .about .row .content{
     flex:1 1 45rem;
@@ -318,12 +318,15 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
+   
 }
 
 .products .box-container .box{
     text-align: center;
     border:var(--border);
-    padding: 2rem;
+    padding: 1rem;
+    
+    
 }
 
 .products .box-container .box .icons a{
@@ -334,6 +337,7 @@ section{
     border:var(--border);
     color:#fff;
     margin:.3rem;
+    
 }
 
 .products .box-container .box .icons a:hover{
@@ -644,6 +648,7 @@ section{
 }
 
 @media (max-width:450px){
+  
 
     html{
         font-size: 50%;
