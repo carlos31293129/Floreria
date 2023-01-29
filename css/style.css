@@ -242,11 +242,13 @@ section{
     background:var(--black);
     flex-wrap: wrap;
     border-radius: 10px ;
+    border: solid 1px #CFAA01;
    
 }
 
 .about .row .image{
     flex:1 1 15rem;
+
 }
 
 .about .row .image img{
@@ -570,10 +572,6 @@ section{
 .footer .credit span{
     color:var(--main-color);
 }
-
-
-
-
 
 
 
